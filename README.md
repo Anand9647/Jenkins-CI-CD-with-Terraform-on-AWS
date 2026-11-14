@@ -421,7 +421,7 @@ By completing this project, I gained hands-on experience in:
 
 # 👨‍💻 Author
 
-**Sai Aravind M.**
+**Anand Jha**
 
 AWS DevOps Engineer | Terraform | Jenkins | Docker | Kubernetes | AWS | CI/CD | Infrastructure as Code
 
