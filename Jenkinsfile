@@ -33,10 +33,13 @@ pipeline {
          sh 'terraform apply -auto-approve'
         }
       }
-     stage('Destroy Terraform') {
-       steps {
-         sh 'terraform destroy -auto-approve'
-       }
-      }
+   stage('Destroy Terraform') {
+    when {
+        expression { params.DESTROY_INFRA == true }
     }
+    steps {
+        sh 'terraform destroy -auto-approve'
+    }
+    }
+   }
 }
