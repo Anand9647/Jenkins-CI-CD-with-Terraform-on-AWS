@@ -12,7 +12,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         git branch: 'main',
-            url: 'https://github.com/ms-aravind/Jenkins-CI-CD-with-Terraform-on-AWS.git'
+            url: 'https://github.com/Anand9647/Jenkins-CI-CD-with-Terraform-on-AWS.git'
       }
     }
 
